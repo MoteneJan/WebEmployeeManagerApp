@@ -1,0 +1,111 @@
+{
+  "version": 2,
+  "dgSpecHash": "FzgRUBQ5VazC0SneA4EMpSghBMzTRz0cvvJzp0wxtP9cMNl5rLFmdqP+RtN9SjJl+9Pe62rIbl/HbRNP9wtgsg==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\moten\\Desktop\\PROJECTS\\EmployeeManager\\EmployeeManager\\EmployeeManager.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.AspNetCore.OpenApi' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.AspNetCore.OpenApi'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.AspNetCore.OpenApi"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Swashbuckle.AspNetCore' from remote source 'https://packagesource/FindPackagesById()?id='Swashbuckle.AspNetCore'&semVerLevel=2.0.0'.",
+      "libraryId": "Swashbuckle.AspNetCore"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.AspNetCore.OpenApi' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.AspNetCore.OpenApi'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.AspNetCore.OpenApi"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Swashbuckle.AspNetCore' from remote source 'https://packagesource/FindPackagesById()?id='Swashbuckle.AspNetCore'&semVerLevel=2.0.0'.",
+      "libraryId": "Swashbuckle.AspNetCore"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Swashbuckle.AspNetCore.SwaggerGen' from remote source 'https://packagesource/FindPackagesById()?id='Swashbuckle.AspNetCore.SwaggerGen'&semVerLevel=2.0.0'.",
+      "libraryId": "Swashbuckle.AspNetCore.SwaggerGen"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Swashbuckle.AspNetCore.SwaggerGen' from remote source 'https://packagesource/FindPackagesById()?id='Swashbuckle.AspNetCore.SwaggerGen'&semVerLevel=2.0.0'.",
+      "libraryId": "Swashbuckle.AspNetCore.SwaggerGen"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Swashbuckle.AspNetCore.Swagger' from remote source 'https://packagesource/FindPackagesById()?id='Swashbuckle.AspNetCore.Swagger'&semVerLevel=2.0.0'.",
+      "libraryId": "Swashbuckle.AspNetCore.Swagger"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Swashbuckle.AspNetCore.Swagger' from remote source 'https://packagesource/FindPackagesById()?id='Swashbuckle.AspNetCore.Swagger'&semVerLevel=2.0.0'.",
+      "libraryId": "Swashbuckle.AspNetCore.Swagger"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.OpenApi' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.OpenApi'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.OpenApi"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.OpenApi' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.OpenApi'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.OpenApi"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.OpenApi' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.OpenApi'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.OpenApi"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.OpenApi' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.OpenApi'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.OpenApi"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.ApiDescription.Server' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.Extensions.ApiDescription.Server'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Extensions.ApiDescription.Server"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.ApiDescription.Server' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.Extensions.ApiDescription.Server'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Extensions.ApiDescription.Server"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Swashbuckle.AspNetCore.SwaggerUI' from remote source 'https://packagesource/FindPackagesById()?id='Swashbuckle.AspNetCore.SwaggerUI'&semVerLevel=2.0.0'.",
+      "libraryId": "Swashbuckle.AspNetCore.SwaggerUI"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Swashbuckle.AspNetCore.SwaggerUI' from remote source 'https://packagesource/FindPackagesById()?id='Swashbuckle.AspNetCore.SwaggerUI'&semVerLevel=2.0.0'.",
+      "libraryId": "Swashbuckle.AspNetCore.SwaggerUI"
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Unable to delete temporary file 'C:\\Users\\moten\\.nuget\\packages\\microsoft.openapi\\1.2.3\\3zs1ihxd.e25'. Error: 'Could not find a part of the path 'C:\\Users\\moten\\.nuget\\packages\\microsoft.openapi'.'."
+    }
+  ]
+}
