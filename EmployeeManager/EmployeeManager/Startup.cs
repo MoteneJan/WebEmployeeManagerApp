@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Newtonsoft.Json.Serialization;
 
 namespace EmployeeManager
 {
@@ -17,11 +18,21 @@ namespace EmployeeManager
 
         public void ConfigureServices(IServiceCollection services)
         {
-            // Add services to the DI container here
-            // For example:
-            // services.AddControllers();
-            // services.AddDbContext<YourDbContext>();
+            // Enabling CORS
+            services.AddCors(c =>
+            {
+                c.AddPolicy("AllowOrigin", options => options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+            });
+
+            //Adding JSON Serilizer
+            services.AddControllersWithViews().AddNewtonsoftJson(Options =>
+            Options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore)
+                .AddNewtonsoftJson(Options => options.SerializerSettings.ContractResolver
+                = new DefaultContractResolver());
+
+            services.AddControllers();
         }
+
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
